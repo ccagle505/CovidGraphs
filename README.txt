@@ -1,0 +1,4 @@
+The two .py files in this repository both function as stand-alone program. Each will generate different graphs. graphDeaths.py will print total covid related deaths for specified countries. graphCases.py will print total confirmed covid cases for specified countries. Any number of countries can be added to the graphs using the graph_country function, which is present in both .py files. Please note, these programs do not have any error handling currently implemented so country names will need to be accurately provided.
+
+The time series csv files provided are not up to date. Up to date csv files for the data can be found at:
+https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series
