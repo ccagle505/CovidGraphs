@@ -9,7 +9,6 @@ with open('time_series_covid19_confirmed_global.csv') as file:
     #function takes String as argument. String should be country name in the list
     #currently no error handling in code so name must be accurate
     #function will plot specified country data based on csv file
-    def graph_country(countryName):
 
     def graph_country(countryName):
         for row in reader:
